@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>Bob</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<defs>
+	<mask id="pullover">
+		<rect width="100%" height="100%" fill="white"/>
+		<circle cx="210" cy="140" r="80" fill="black" />
+	</mask>
+	<clipPath id="head">
+		<circle cx="210" cy="140" r="69" />
+	</clipPath>
+</defs>
+<style type="text/css">
+<![CDATA[
+.person {
+	fill: #EEEEEC;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.hair {
+	fill: #8F5902;
+	stroke-width: 3;
+	stroke: #2E3436;
+}
+.eyes {
+	fill: #2E3436;
+}
+.smile {
+	fill: none;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.tie {
+	fill: #A40000;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.pullover {
+	fill: #3465A4;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+]]>
+</style>
+<circle cx="210" cy="139" r="70" class="person head"/>
+<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280" class="person body"/>
+<g clip-path="url(#head);" class="hair">
+	<circle cx="160" cy="20" r="100"/>
+	<circle cx="295" cy="20" r="100"/>
+</g>
+<circle cx="180" cy="130" r="3" class="eyes"/>
+<circle cx="240" cy="130" r="3" class="eyes"/>
+<path d="M195,170 a15,5 0 0,0 30,0" class="smile"/>
+<path d="M190,215 l14,20 l-14,125 l20,30 l20,-30 l-14,-125 l14,-20 z" class="tie"/>
+<path d="M70,415 c0,-100 40,-200 100,-200 l40,150 l40,-150 C310,220 350,320 350,415 h-280" class="pullover"/>
+</svg>
