@@ -43,11 +43,13 @@
 	fill: #FCAF3E;
 }
 .hair {
+	clip-path: url(#head);
 	fill: #FCE94F;
 	stroke-width: 3;
 	stroke: #2E3436;
 }
 .long-hair {
+	clip-path: url(#long-hair);
 	stroke-width: 5 !important;
 }
 .eyes {
@@ -57,25 +59,26 @@
 	fill: none;
 	stroke-width: 5;
 	stroke: #2E3436;
+	stroke-linecap: round;
 }
 .necklace {
 	fill: none;
 	stroke: #EEEEEC;
 	stroke-width: 3;
 	stroke-dasharray: 0,5;
-	stroke-linecap: round; 
+	stroke-linecap: round;
 }
 ]]>
 </style>
-<path d="M130,185 c0,-157 160,-157 160,0 q2,3 20,-15 c0,100 -200,100 -200,0 q18,18 20,15 z" clip-path="url(#long-hair);" class="hair long-hair"/>
+<path d="M130,185 c0,-157 160,-157 160,0 q2,3 20,-15 c0,100 -200,100 -200,0 q18,18 20,15 z" class="hair long-hair"/>
 <circle cx="210" cy="139" r="70" class="person head"/>
-<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280" class="person body"/>
-<g clip-path="url(#head);" class="hair top-hair">
+<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 z" class="person body"/>
+<g class="hair top-hair">
 	<circle cx="140" cy="20" r="100"/>
 	<circle cx="280" cy="20" r="100"/>
 </g>
 <circle cx="180" cy="130" r="3" class="eyes"/>
 <circle cx="240" cy="130" r="3" class="eyes"/>
-<path d="M195,170 a15,5 0 0,0 30,0" class="smile"/>
+<path d="M195,170 a20,15 0 0,0 30,0" class="smile"/>
 <path d="M160,220 q50,200 100,0" class="necklace"/>
 </svg>

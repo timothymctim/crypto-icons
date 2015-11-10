@@ -3,7 +3,7 @@ Crypto Icons
 A collection of hand-made Scalable Vector Graphics icons, useful for
 representing cryptographic schemes and protocols.
 The icons can be freely used in any presentation or publication **even
-without** acknowledgment.
+without** acknowledgment/attribution.
 
 Help Wanted
 -----------

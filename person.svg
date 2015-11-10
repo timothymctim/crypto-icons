@@ -42,5 +42,5 @@
 ]]>
 </style>
 <circle cx="210" cy="139" r="70" class="person head"/>
-<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280" class="person body"/>
+<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 z" class="person body"/>
 </svg>
