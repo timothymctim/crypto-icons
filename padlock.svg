@@ -14,7 +14,7 @@
 	<cc:Work rdf:about="">
 		<dc:format>image/svg+xml</dc:format>
 		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-		<dc:title>person</dc:title>
+		<dc:title>padlock</dc:title>
 		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dc:creator>
 			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>

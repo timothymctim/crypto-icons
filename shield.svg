@@ -5,7 +5,6 @@
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:cc="http://creativecommons.org/ns#"
 	xmlns="http://www.w3.org/2000/svg"
-	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="420"
 	height="420">
 <metadata>
@@ -13,7 +12,7 @@
 	<cc:Work rdf:about="">
 		<dc:format>image/svg+xml</dc:format>
 		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-		<dc:title>person</dc:title>
+		<dc:title>shield</dc:title>
 		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dc:creator>
 			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
