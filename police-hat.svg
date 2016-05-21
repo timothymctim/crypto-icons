@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>police-hat</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<defs>
+	<clipPath id="shield">
+		<path d="M70,100 c40,350 240,350 280,0 v-50 q-70,40 -140,0 q-70,40 -140,0 z"/>
+	</clipPath>
+</defs>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke-linejoin: round;
+}
+.top {
+	fill: #204A87;
+}
+.middle {
+	fill: #3465A4;
+}
+.cap {
+	fill: #2E3436;
+	stroke-width: 3;
+	stroke: #888A85;
+}
+.shield {
+	fill: #FCE94F;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.shield-right {
+	fill: #000;
+	fill-opacity: 0.025;
+	clip-path: url(#shield);
+	stroke-width: 0.1;
+	stroke: #000;
+}
+]]>
+</style>
+<ellipse cx="210" cy="75" rx="160" ry="70" class="top"/>
+<ellipse cx="210" cy="150" rx="125" ry="55" class="cap"/>
+<path d="M75,90 c50,-20 220,-20 270,0 v50 c-50,20 -220,20 -270,0 z" class="middle"/>
+<g transform="matrix(0.15, 0, 0, 0.15, 178.5, 83)">
+	<path d="M70,100 c40,350 240,350 280,0 v-50 q-70,40 -140,0 q-70,40 -140,0 z" class="shield"/>
+	<rect x="210" y="50" width="140" height="315" class="shield-right"/>
+</g>
+</svg>
