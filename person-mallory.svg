@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>Mallory</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<defs>
+	<clipPath id="top-head">
+		<rect x="0" y="100" width="420" height="320"/>
+	</clipPath>
+	<clipPath id="head">
+		<circle cx="210" cy="140" r="69" />
+	</clipPath>
+</defs>
+<style type="text/css">
+<![CDATA[
+.person {
+	fill: #EEEEEC;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.body {
+	fill: #555753;
+}
+.hair {
+	fill: #E9B96E;
+	stroke-width: 4;
+	stroke: #2E3436;
+}
+.eyebrows {
+	fill: none;
+	stroke: #2E3436;
+	stroke-width: 4;
+	stroke-linecap: round;
+}
+.eyes {
+	fill: #2E3436;
+}
+.smile {
+	fill: none;
+	stroke-width: 5;
+	stroke: #2E3436;
+	stroke-linecap: round;
+}
+]]>
+</style>
+<path d="M130,220 c-15,-210 175,-210 160,0 z" class="hair" style="clip-path: url(#top-head)"/>
+<circle cx="210" cy="139" r="70" class="person head"/>
+<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280" class="person body"/>
+<path d="M177,115 l 10,5" class="eyebrows"/>
+<circle cx="180" cy="130" r="3" class="eyes"/>
+<path d="M243,115 l -10,5" class="eyebrows"/>
+<circle cx="240" cy="130" r="3" class="eyes"/>
+<g class="hair" style="clip-path: url(#head)">
+	<circle cx="140" cy="20" r="100"/>
+	<circle cx="280" cy="20" r="100"/>
+</g>
+<path d="M200,175 a25,20 0 0,0 30,-10" class="smile"/>
+</svg>
