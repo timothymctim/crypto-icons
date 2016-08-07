@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>Evil Company</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke-linejoin: round;
+}
+.building {
+	fill: #EEEEEC;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.company-name {
+	/* Sen font: http://philatype.com/#sen */
+	font-family: Sen, sans-serif;
+	font-size: 40;
+	fill: #2E3436;
+}
+.window {
+	stroke: #BABDB6;
+	stroke-width: 45;
+}
+.door {
+	fill: #BABDB6;
+}
+]]>
+</style>
+<rect class="building" x="70" y="20" width="280" height="395"/>
+<text class="company-name" x="335" y="60" text-anchor="end">Evil Corp</text>
+<line class="window" stroke-dasharray="50,10" x1="95" y1="110" x2="325" y2="110"/>
+<line class="window" stroke-dasharray="50,10" x1="95" y1="190" x2="325" y2="190"/>
+<line class="window" stroke-dasharray="50,10" x1="95" y1="270" x2="325" y2="270"/>
+<rect class="door" x="170" y="332.5" width="80" height="40" rx="20"/>
+<rect class="door" x="170" y="352.5" width="80" height="60"/>
+</svg>
