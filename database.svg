@@ -37,6 +37,6 @@
 }
 ]]>
 </style>
-<ellipse cx="210" cy="80" rx="125" ry="30" class="database"/>
-<path d="M85,98 v280 q125,50 250,0 v-280 c-25,35 -225,35 -250,0 z" class="database"/>
+<ellipse cx="210" cy="80" rx="150" ry="30" class="database"/>
+<path d="M60,98 v280 q150,50 300,0 v-280 c-25,35 -275,35 -300,0 z" class="database"/>
 </svg>
