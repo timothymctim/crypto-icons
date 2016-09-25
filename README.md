@@ -5,7 +5,7 @@ representing cryptographic schemes and protocols.
 The icons can be freely used in any presentation or publication **even
 without** acknowledgment/attribution.
 
-![Motage of the icon set.](montage.png "All icons of all icons.")
+![Motage of the icon set.](montage.png "Overview of all icons.")
 
 Help Wanted
 -----------
