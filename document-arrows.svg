@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	width="500"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>document with a left and a right arrow</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke-linejoin: round;
+}
+.file {
+	fill: #EEEEEC;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.lines {
+	stroke-width: 10;
+	stroke: #BABDB6;
+}
+.right-arrow {
+	fill: #CC0000;
+	stroke-width: 5;
+	stroke: #A40000;
+}
+.left-arrow {
+	fill: #3465A4;
+	stroke-width: 5;
+	stroke: #204A87;
+}
+]]>
+</style>
+<rect x="90" y="5" width="320" height="410" class="file" />
+<path class="lines" d="M125 40 h250
+ M125  60 h250
+ M125  80 h250
+ M125 100 h250
+ M125 120 h250
+ M125 140 h250
+ M125 160 h100
+ M125 200 h250
+ M125 220 h250
+ M125 240 h250
+ M125 260 h250
+ M125 280 h250
+ M125 300 h160
+ M125 340 h250
+ M125 360 h250
+ M125 380 h70" />
+<path class="right-arrow" d="M310 80 h100 v-30 l80 60 l-80 60 v-30 h-100 z" />
+<path class="left-arrow" d="M190 280 h-100 v-30 l-80 60 l80 60 v-30 h100 z" />
+</svg>
