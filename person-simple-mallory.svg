@@ -47,7 +47,7 @@
 </style>
 <path d="M130,222 c-15,-215 175,-215 160,0 z" class="hair" style="clip-path: url(#top-head)"/>
 <circle cx="210" cy="139" r="70" class="person head"/>
-<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280" class="person body"/>
+<path d="M70,415 c0,-100 40,-200 100,-200 h80 C310,220 350,320 350,415 h-280 z" class="person body"/>
 <g class="hair" style="clip-path: url(#head)">
 	<circle cx="140" cy="20" r="100"/>
 	<circle cx="280" cy="20" r="100"/>
