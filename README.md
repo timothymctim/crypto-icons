@@ -10,8 +10,15 @@ without** acknowledgment/attribution.
 
 Naming convention
 -----------------
-I choose use descriptive naming for the icons and not to use metaphors.
-E.g., the padlock icon is called `padlock` and not `encryption`.
+I choose to use descriptive naming for the icons and not to use
+metaphors.
+For example, the padlock icon is called `padlock` and not `encryption`
+or `ciphertext`.
+Although most icons have a clear use, some might look less usefull.
+The following list describes some icons and how one could use them.
+
+* `exclamation-mark`: sensitive data, in need of protection
+* `document-arrows`: a document being shared
 
 Help Wanted
 -----------
