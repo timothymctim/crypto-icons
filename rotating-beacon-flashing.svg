@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns="http://www.w3.org/2000/svg"
+	width="620"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>flashing rotating beacon</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke-linejoin: round;
+}
+.lamp {
+	fill: #EF2929;
+	stroke: #2E3436;
+	stroke-width: 5;
+}
+.base {
+	fill: #555753;
+	stroke: #2E3436;
+	stroke-width: 5;
+}
+.light {
+	fill: #A40000;
+}
+.light-beam {
+	stroke: #A40000;
+	stroke-linecap: round;
+	stroke-width: 20;
+	stroke-opacity: .9;
+}
+]]>
+</style>
+<symbol id="lamp">
+	<path d="M180,350 l10,-250 a50,50 0 0,1 50,-50 h140 a50,50 0 0,1 50,50 l10,250 z"/>
+</symbol>
+<use xlink:href="#lamp" class="lamp"/>
+<path d="M290,350 l0,-140 a15,15 0 0,1 15,-15 h10 a15,15 0 0,1 15,15 l0,140" class="light"/>
+<use xlink:href="#lamp" class="lamp" fill-opacity="0.4"/>
+<path d="M150,410 v-35 a15,15 0 0,1 15,-15 h290 a15,15 0 0,1 15,15 v35 z" class="base"/>
+<g class="light-beam">
+	<line x1="140" y1="155" x2="40" y2="95"/>
+	<line x1="130" y1="205" x2="10" y2="205"/>
+	<line x1="140" y1="265" x2="40" y2="305"/>
+
+	<line x1="480" y1="155" x2="580" y2="95"/>
+	<line x1="490" y1="205" x2="610" y2="205"/>
+	<line x1="480" y1="265" x2="580" y2="305"/>
+</g>
+</svg>
