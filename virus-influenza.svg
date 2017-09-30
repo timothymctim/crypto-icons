@@ -36,19 +36,19 @@
 ]]>
 </style>
 <g class="neuraminidase">
-	<path d="M200,200 L 48,270 h   5 L220,220"/><circle cx=" 50" cy="270" r=" 7"/>
-	<path d="M200,215 L 58,185 v -10 L220,220"/><circle cx=" 60" cy="180" r=" 9"/>
-	<path d="M200,200 L 72,330 h   5 L220,220"/><circle cx=" 75" cy="330" r=" 7"/>
-	<path d="M200,215 L 85,100 l5,-5 L220,215"/><circle cx=" 90" cy="100" r=" 6"/>
-	<path d="M200,200 L138,330 h   5 L220,220"/><circle cx="140" cy="330" r=" 4"/>
-	<path d="M200,200 L138, 40 h   5 L220,220"/><circle cx="140" cy=" 40" r="10"/>
-	<path d="M200,200 L148,350 h   5 L220,220"/><circle cx="150" cy="350" r=" 6"/>
-	<path d="M200,200 L218,360 h   5 L220,220"/><circle cx="220" cy="360" r=" 8"/>
-	<path d="M200,200 L258, 70 h   5 L220,220"/><circle cx="260" cy=" 70" r="11"/>
-	<path d="M200,200 L272,350 h   5 L220,220"/><circle cx="275" cy="350" r=" 5"/>
-	<path d="M200,200 L348,150 h   5 L220,220"/><circle cx="350" cy="150" r=" 7"/>
+	<path d="M200,200 L 48,270 h   5 L220,220"/><circle cx="50"  cy="270" r="7"/>
+	<path d="M200,215 L 58,185 v -10 L220,220"/><circle cx="60"  cy="180" r="9"/>
+	<path d="M200,200 L 72,330 h   5 L220,220"/><circle cx="75"  cy="330" r="7"/>
+	<path d="M200,215 L 85,100 l5,-5 L220,215"/><circle cx="90"  cy="100" r="6"/>
+	<path d="M200,200 L138,330 h   5 L220,220"/><circle cx="140" cy="330" r="4"/>
+	<path d="M200,200 L138, 40 h   5 L220,220"/><circle cx="140" cy="40"  r="10"/>
+	<path d="M200,200 L148,350 h   5 L220,220"/><circle cx="150" cy="350" r="6"/>
+	<path d="M200,200 L218,360 h   5 L220,220"/><circle cx="220" cy="360" r="8"/>
+	<path d="M200,200 L258, 70 h   5 L220,220"/><circle cx="260" cy="70"  r="11"/>
+	<path d="M200,200 L272,350 h   5 L220,220"/><circle cx="275" cy="350" r="5"/>
+	<path d="M200,200 L348,150 h   5 L220,220"/><circle cx="350" cy="150" r="7"/>
 	<path d="M200,215 L348,320 l10,5 L220,200"/><circle cx="350" cy="320" r="13"/>
-	<path d="M200,215 L352,270 h   5 L220,200"/><circle cx="355" cy="270" r=" 6"/>
+	<path d="M200,215 L352,270 h   5 L220,200"/><circle cx="355" cy="270" r="6"/>
 	<path d="M200,200 L368,200 h   5 L220,220"/><circle cx="370" cy="200" r="10"/>
 </g>
 <circle cx="210" cy="210" r="120" class="nuclear"/>
