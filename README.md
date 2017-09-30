@@ -6,7 +6,7 @@ explaining something in cryptography.
 The icons can be freely used in any presentation or publication **even
 without** acknowledgment/attribution.
 
-![Montage of the icon set.](montage.png "Overview of all icons.")
+![Montage of the icon set.](montage.png "Overview of a selection of icons.")
 
 Naming convention
 -----------------
@@ -19,6 +19,7 @@ The following list describes some icons and how one could use them.
 
 * `exclamation-mark`: sensitive data, in need of protection
 * `document-arrows`: a document being shared
+* `shuffle`: a mix in a mix network
 
 Help Wanted
 -----------
