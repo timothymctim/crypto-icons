@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>computer</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke: #2E3436;
+	stroke-linejoin: round;
+	stroke-width: 5;
+}
+.bezel {
+	fill: #D3D7CF;
+}
+.screen, .keyboard {
+	fill: #EEEEEC;
+}
+]]>
+</style>
+<rect x="80" y="45" width="260" height="220" class="bezel"/>
+<rect x="90" y="55" width="240" height="180" class="screen"/>
+<path d="M20,375 l50,-85 h280 l50,85 z" class="keyboard"/>
+</svg>
