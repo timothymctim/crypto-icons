@@ -43,6 +43,6 @@
 }
 ]]>
 </style>
-<path d="M50,100 v-4 l15,-15 h204 a55,55 0 1,1 0,40 h-30 l-20,-15 l-25,15 h-5 l-15,-6 l-15,6 h-10 l-10,-8 l-10,8 h-20 v-5 h-10 v5 h-20 z" mask="url(#keyring-hole)" class="key"/>
+<path d="M50,100 v-6 l20,-20 h199 a55,55 0 1,1 0,50 h-30 l-20,-15 l-25,15 h-10 l-20,-8 l-20,8 h-20 v-7 h-20 v7 h-20 z" mask="url(#keyring-hole)" class="key"/>
 <circle cx="350" cy="100" r="10" class="keyring-hole"/>
 </svg>
