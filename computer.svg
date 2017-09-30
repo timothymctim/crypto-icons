@@ -30,7 +30,10 @@
 .bezel {
 	fill: #D3D7CF;
 }
-.screen, .keyboard {
+.screen {
+	fill: #FFF;
+}
+.keyboard {
 	fill: #EEEEEC;
 }
 ]]>
