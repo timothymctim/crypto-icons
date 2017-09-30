@@ -20,11 +20,6 @@
 	</cc:Work>
 	</rdf:RDF>
 </metadata>
-<defs>
-	<clipPath id="database-top">
-		<ellipse cx="210" cy="80" rx="125" ry="25"/>
-	</clipPath>
-</defs>
 <style type="text/css">
 <![CDATA[
 * {
