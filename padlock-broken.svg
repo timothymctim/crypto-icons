@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns="http://www.w3.org/2000/svg"
+	width="420"
+	height="420">
+<metadata>
+	<rdf:RDF>
+	<cc:Work rdf:about="">
+		<dc:format>image/svg+xml</dc:format>
+		<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+		<dc:title>broken padlock</dc:title>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dc:creator>
+			<dc:Agent><cc:attributionName>T.R. van de Kamp</cc:attributionName></dc:Agent>
+		</dc:creator>
+	</cc:Work>
+	</rdf:RDF>
+</metadata>
+<style type="text/css">
+<![CDATA[
+* {
+	stroke-linejoin: round;
+}
+.body {
+	fill: #E6CD00;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+.ring {
+	fill: #EAEAE7;
+	stroke-width: 5;
+	stroke: #2E3436;
+}
+]]>
+</style>
+<path d="M65,210 v-130 a105,50 0 0,1 290,0 l-12,15 l-14,-11 l-15,20 l-14,-6 v-8 a55,20 0 0,0 -180,0 v120 z" class="ring" />
+<path d="M300,210 v-65 l15,10 l14,-19 l12,10 l14,-3 v67 z" class="ring" />
+<path d="M55,185 h310 a15,15 0 0,1 15,15 v200 a15,15 0 0,1 -15,15 h-219 l22,-35 l60,-22 l-15,-38 l33,-26 l8,-35 l-21,27 l-39,28 l11,32 l-55,19 l-45,50 h-50 a15,15 0 0,1 -15,-15 v-200 a15,15 0 0,1 15,-15 " class="body" />
+</svg>
